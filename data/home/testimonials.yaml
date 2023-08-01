@@ -1,0 +1,18 @@
+enabled: true
+id: "testimonials"
+
+content:
+  title: "Testimonials"
+
+  featured:
+    image: "images/testimonials-awards.png"
+    text: "I never new I needed this this much. I'm a changed man."
+    client: "Customer 1"
+
+  list:
+    - text: "Everything is so easy and configurable. All in Python!"
+      client: "Customer 2"
+
+    - text: "I monitor my robots from the beach these days."
+      client: "Customer 3"
+  

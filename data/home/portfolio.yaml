@@ -1,0 +1,39 @@
+enabled: true
+id: "portfolio"
+
+content:
+  - image: "images/portfolio-ecommerce.png"
+    pretitle: "Robot integration"
+    title: "Add your first robot"
+    text: "With just a few lines of code, you can control your first robot."
+
+    buttons: 
+      - label: "See live"
+        url: "#"
+
+      - label: "Read more"
+        url: "#"
+
+  - image: "images/portfolio-ecommerce.png"
+    pretitle: "Sensor integration"
+    title: "Add any sensor"
+    text: "With some additional code you add a camera."
+
+    buttons: 
+      - label: "See live"
+        url: "#"
+
+      - label: "Read more"
+        url: "#"
+
+  - image: "images/portfolio-ecommerce.png"
+    pretitle: "Monitoring"
+    title: "Setup live monitoring"
+    text: "Monitor any robot or sensor integrated with the URC."
+
+    buttons: 
+      - label: "See live"
+        url: "#"
+
+      - label: "Read more"
+        url: "#"

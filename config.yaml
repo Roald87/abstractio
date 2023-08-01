@@ -1,0 +1,89 @@
+baseURL: "https://www.github.com/Roald87/abstrctio"
+theme: "up-business-theme"
+languageCode: "en-us"
+
+title: "abstract.io"
+
+# googleAnalytics: ""
+
+summaryLength: 20
+
+params:
+  title: "Abstrctio"
+  description: "Industrial automation with general purpouse programming languages."
+  images: 
+    - "images/hero-image.png"
+
+  logo: "arrow-up.png"
+
+  favicons:
+    themeColor: "#FFFFFF"
+    backgroundColor: "#FFFFFF"
+    faviconColor: "#000000"
+
+  social:
+    dribbble: "#"
+    instagram: "#"
+    facebook: "#"
+    twitter: "#"
+
+  location:
+    - "Technoparkstrasse 1, 8005 Zürich"
+
+  contact:
+    - "roald@abstract.io"
+
+  copyright: "© 2023 abstract.io All Rights Reserved"
+
+menus:
+  main:
+    - name: "Home"
+      url: "/#hero"
+      weight: 1
+
+    - name: "How we work"
+      url: "/#"
+      weight: 2
+
+    - name: "Our team"
+      url: "/#"
+      weight: 3
+
+    - name: "Pricing"
+      url: "/#"
+      weight: 4
+
+    - name: "Blog"
+      url: "/blog"
+      weight: 5
+
+  buttons:
+    - name: "Sign up for beta"
+      url: "/#"
+      weight: 5
+      pre: "btn btn-primary text-light"
+
+  footer:
+    - name: "Home"
+      url: "/#hero"
+      weight: 1
+
+    - name: "How we work"
+      url: "/#"
+      weight: 2
+
+    - name: "Our team"
+      url: "/#"
+      weight: 3
+
+    - name: "Pricing"
+      url: "/#"
+      weight: 4
+
+    - name: "Blog"
+      url: "/blog"
+      weight: 5
+
+taxonomies:
+  series: "series"
+  tags: "tags"

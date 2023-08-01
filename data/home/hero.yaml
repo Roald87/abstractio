@@ -1,0 +1,14 @@
+enabled: true
+id: "hero"
+
+content:
+  title: "Robot integration made **easy**" 
+  text: "Use our URC platform to integrate any robot and sensor. Abstract the complexity away. Easy. Fast. Repeatable."
+
+  buttonPrimary:
+    label: "Live demo"
+    url: "#"
+
+  buttonSecondary:
+    label: "Let's talk"
+    url: ""
