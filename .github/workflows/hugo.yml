@@ -44,7 +44,9 @@ jobs:
         with:
           submodules: recursive
       - name: Check if submodule is checked out
-        run: tree -a
+        run: |
+          mkdir themes
+          tree -a
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
