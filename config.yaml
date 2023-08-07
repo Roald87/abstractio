@@ -9,7 +9,7 @@ title: "abstract.io"
 summaryLength: 20
 
 params:
-  title: "Abstrctio"
+  title: "Abstractio"
   description: "Industrial automation with general purpouse programming languages."
   images: 
     - "images/hero-image.png"
