@@ -39,9 +39,12 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Install Dart Sass
         run: sudo snap install dart-sass
-      - name: Checkout
+      - name: Checkout main
+        uses: actions/checkout@v3
+      - name: Checkout submodules
         uses: actions/checkout@v3
         with:
+          sparse-checkout: ""
           submodules: recursive
           path: ./themes/up-business-theme
       - name: Check if submodule is checked out
