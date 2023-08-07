@@ -46,7 +46,6 @@ jobs:
         with:
           sparse-checkout: ""
           submodules: recursive
-          path: ./themes/up-business-theme
       - name: Check if submodule is checked out
         run: tree -a
       - name: Setup Pages
