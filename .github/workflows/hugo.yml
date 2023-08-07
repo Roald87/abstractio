@@ -43,10 +43,9 @@ jobs:
         uses: actions/checkout@v3
         with:
           submodules: recursive
+          path: ./themes/up-business-theme
       - name: Check if submodule is checked out
-        run: |
-          mkdir themes
-          tree -a
+        run: tree -a
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
