@@ -6,6 +6,9 @@
         {{ with .image }}
           {{ partial "utilities/image-fluid.html" . }}
         {{ end }}
+        {{ with .terminal }}
+          {{ partial "utilities/terminal.html" . }}
+        {{ end }}
       </div>
       <div class="col-12 col-xl-6 d-flex flex-column justify-content-center">
         {{ with .pretitle }}

@@ -1,0 +1,46 @@
+/* Apply general styles to the terminal container */
+.terminal-container {
+    background-color: black;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 0px;
+    position: relative;
+}
+
+/* Style the header */
+.terminal-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/* Style the close, minimize, maximize buttons */
+.terminal-buttons {
+    display: flex;
+}
+
+.terminal-button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 0 3px;
+}
+
+.red { background-color: red; }
+.yellow { background-color: yellow; }
+.green { background-color: green; }
+
+/* Style the terminal frame */
+.terminal-frame {
+    background-color: black;
+    color: white;
+    height: 300px; /* Adjust as needed */
+    overflow-y: auto;
+    border: 1px solid #555;
+    padding: 15px;
+    font-family: "Courier New", monospace; /* Monospace font */
+    font-weight: bold
+}

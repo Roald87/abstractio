@@ -2,8 +2,10 @@ enabled: true
 id: "portfolio"
 
 content:
-  - image: "images/portfolio-ecommerce.png"
-    pretitle: "Robot integration"
+  - pretitle: "Robot integration"
+    terminal: |
+              $ roboio init --name hello_world
+              Initializing roboio project...
     title: "Add your first robot"
     text: "With just a few lines of code, you can control your first robot."
 
