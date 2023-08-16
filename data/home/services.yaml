@@ -1,27 +1,27 @@
-enabled: true
-id: "services"
-
-content:
-  title: "Our main services"
-  text: "We offer the following services."
-  cards:
-    - image: "images/services-web-development.png"
-      title: "Integration"
-      text: "integrate any robot or sensor. "
-      button:
-        label: "Learn more"
-        url: "#"
-
-    - image: "images/services-web-development.png"
-      title: "Monitoring"
-      text: "Setup remote monitoring."
-      button:
-        label: "Learn more"
-        url: "#"
-
-    - image: "images/services-web-development.png"
-      title: "Machine learning"
-      text: "Add machine learning cababilities. "
-      button:
-        label: "Learn more"
-        url: "#"
+#enabled: true
+#id: "services"
+#
+#content:
+#  title: "Our main services"
+#  text: "We offer the following services."
+#  cards:
+#    - image: "images/services-web-development.png"
+#      title: "Integration"
+#      text: "integrate any robot or sensor. "
+#      button:
+#        label: "Learn more"
+#        url: "#"
+#
+#    - image: "images/services-web-development.png"
+#      title: "Monitoring"
+#      text: "Setup remote monitoring."
+#      button:
+#        label: "Learn more"
+#        url: "#"
+#
+#    - image: "images/services-web-development.png"
+#      title: "Machine learning"
+#      text: "Add machine learning cababilities. "
+#      button:
+#        label: "Learn more"
+#        url: "#"

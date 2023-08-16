@@ -3,7 +3,7 @@ id: "hero"
 
 content:
   title: "Robot integration made **easy**" 
-  text: "Use our URC platform to integrate any robot and sensor. Abstract the complexity away. Easy. Fast. Repeatable."
+  text: "Use our software platform to integrate any industrial robot, sensors and other hardware. Abstract away the complexity of robot integration and focus on your application."
 
   buttonPrimary:
     label: "Live demo"
